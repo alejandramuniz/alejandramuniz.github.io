@@ -192,6 +192,18 @@ h1 {
   left: 18%;
 }
 
+.austin-logo {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  height: auto;
+  opacity: 0.95;
+  z-index: 2;
+  animation: float 6s ease-in-out infinite;
+}
+
 @keyframes float {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-14px); }
